@@ -64,28 +64,45 @@ h2{
 .main a:hover{
 	color: #444444;
 }
-#solar-image{
-	box-shadow: 0 9px 13px 5px;
+.science{
+	padding: 30px;
+	box-shadow: 0 5px 5px 5px;
+	border-radius: 10px;
+}
+.s2{
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: green;
+}
+#solar{
+	box-shadow: 0 3px 3px 3px;
 	border-radius: 5px;
 	padding: 8px;
 	margin-bottom: 30px;
 }
-#solar-image img{
+#solar img{
 	width: 60%;
 	border-radius: 8px;
 }
-#ozone-image{
-	box-shadow: 0 9px 13px 5px;
+#ozone{
+	box-shadow: 0 3px 3px 3px;
 	border-radius: 5px;
 	padding: 8px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
-#ozone-image img{
+#ozone img{
 	width: 60%;
-	height: 250px;
 	border-radius: 8px;
 }
-
+#bermuda{
+	box-shadow: 0 3px 3px 3px;
+	border-radius: 5px;
+	padding: 8px;
+}
+#bermuda img{
+	width: 60%;
+	border-radius: 8px;
+}
 button{
 	height: 30px;
 	border-radius: 10px;
@@ -140,6 +157,33 @@ footer{
 	background: #D6D6D6; 	
 }
 #contact #form #submit{
+	height: 30px;
+	background: rgb(59, 118, 135); 	
+}
+
+/*Comment Form */
+#comment-form{
+	width: 500px;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	box-shadow: 0 2px 2px 2px;
+	border-radius: 5px;
+}
+#comment-form #page-heading{
+	text-align: center;
+}
+#comment-form input{
+	width: 100%;
+	border-radius: 5px;
+	height: 20px;
+	background: #D6D6D6; 
+}
+#comment-form #comment{
+	width: 100%;
+	border-radius: 5px;
+	background: #D6D6D6; 	
+}
+#comment-form #submit{
 	height: 30px;
 	background: rgb(59, 118, 135); 	
 }
