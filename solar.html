@@ -3,23 +3,32 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="scripts.js"></script> 	
+	<script src="scripts.js"></script>
 </head>
 <body>
 	<div class="container">
 		<header class="header">
-			<h1><a href="index.html" class="link-title">Tavishi Website</a></h1>
+			<h1><center><a href="index.html" class="link-title">Tavishi Website</a></center></h1>
 		</header>
-		<nav  class="menu">
+		<div class="menu">
 			<a href="index.html">Home</a>
+			<div class="dropdown">
+				<button class="dropbtn" onclick="myFunction()">Science</button>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="solar.html">Solar Power</a>
+					<a href="ozone.html">Ozone Layer</a>
+					<a href="bermuda.html">Bermuda Triangle</a>
+				</div>
+			</div>
 			<a href="privacy.html">Privacy Policy</a>
 			<a href="contact.html">Contact</a>
-		</nav>
+		</div>
 		<aside>
 			<h1>Solar Power</h1>
 		</aside>
 		<article class="main">
 			<div>
+				<center><img src="solar.jpg" alt="solar image"></center>
 				<h2>What is Solar Power ??</h2>
 				<p>Solar Power is the conversion of Sunlight into Energy so that we can use it. This conversion is done in many ways:- directly using Photovoltaics (PV), indirectly using Concentrated Solar Powers.</p>
 				<h2>Photovoltaics :- </h2>

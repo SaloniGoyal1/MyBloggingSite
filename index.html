@@ -3,43 +3,82 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="scripts.js"></script> 	
+	<script src="scripts.js"></script> 
 </head>
 <body>
 	<div class="container">
 		<header class="header">
 			<h1><center><a href="index.html" class="link-title">Tavishi Website</a></center></h1>
 		</header>
-		<nav  class="menu">
+		<div class="menu">
 			<a href="index.html">Home</a>
+			<div class="dropdown">
+				<button class="dropbtn" onclick="myFunction()">Science</button>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="solar.html">Solar Power</a>
+					<a href="ozone.html">Ozone Layer</a>
+					<a href="bermuda.html">Bermuda Triangle</a>
+				</div>
+<!-- 				<button class="dropbtn" onclick="myFunction()">Space</button>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="moon.html">Moon</a>
+					<a href="saturn.html">Rings of Saturn</a>
+					<a href="solareclipse.html">Solar Eclipse</a>
+				</div> -->
+			</div>
 			<a href="privacy.html">Privacy Policy</a>
 			<a href="contact.html">Contact</a>
-		</nav>
+		</div>
 		<aside>
 			<h1>Home </h1>
 		</aside>
 		<article class="main">
-		<div class="science">
+		<div class="blog">
 			<h1 class="s2">Science</h1>
 			<div id="solar">
 				<center><img src="solar.jpg" alt="solar image"></center>
+				<h2>Solar Power</h2>
 			<p>What is Solar Power ?? Solar Power is the conversion of Sunlight into Energy so that we can use it. This conversion is done in many ways:- directly using Photovoltaics (PV), indirectly using Concentrated Solar Powers. Photovoltaics :-  This system employs Solar Panels, each comprising a number of Solar Cells, which generate electrical power.</p>
 			<button><a href="solar.html" class="button"> More</a></button>
 			</div>
 
 			<div id="ozone">
 				<center><img src="ozone.jpg" alt="ozone image"></center>
+				<h2>Ozone Layer</h2>
 			<p>Ozone Layer or Ozone Shield or Ozonosphere, it is in the region of the upper Atmosphere. It is Present in Layer Stratosphere, from approximately 50 km (31 mi) above Earth. It absorbs most of the Sun’s Ultraviolet Radiations  (mainly wavelength of UV Radiation is less than 310 nm). Ozone Layer Contain’s relatively high concentrations of Ozone molecules (O3). </p>
 			<button><a href="ozone.html" class="button"> More</a></button>
 			</div>
 			
 			<div id="bermuda">
 				<center><img src="bermuda.jpg" alt="bermuda image"></center>
+				<h2>Bermuda Triangle</h2>
 			<p>Bermuda Triangle Other Name of Bermuda Triangle?? The Bermuda Triangle, also known as the Devil’s Triangle or Hurricane Alley. Area of Bermuda Triangle In 1964, Vincent Gaddis wrote in the pulp magazine Argosy of the boundaries of the Bermuda Triangle.  By giving its vertices as Miami, San Juan, Puerto Rico and Bermuda. The Total area varying from 1,300,000 to 3,900,000 km2 (500,000 to 1,510,000 sq mi).</p>
 			<button><a href="bermuda.html" class="button"> More</a></button>
 			</div>
-		</div>
+			<br><br>
+		<h1 class="s2">Space</h1>
+			<div id="solar">
+				<center><img src="solareclipse.jpg" alt="solareclipse image"></center>
+				<h2>Solar Eclipse</h2>
+			<p>What is Solar Eclipse?? Solar Eclipse occurs when the moon passes in a direct line between the Earth and the Sun. This can only happen during New Moon when the Moon is close to the Ecliptic Plane. The disk of the Sun is fully obscured by the Moon.</p>
+			<button><a href="solareclipse.html" class="button"> More</a></button>
+			</div>
 
+			<div id="moon">
+				<center><img src="moon.jpg" alt="moon image"></center>
+				<h2>Moon</h2>
+			<p>Let us Discuss About Some Basic Information About Moon Moon is an astronomical body that orbits planet Earth. It’s the only Earth’ permanent natural satellite. Moon is the fifth-largest natural satellite in the Solar System. The Moon is thought to have formed about 4.51 billion years ago, not long after Earth.</p>
+			<button><a href="moon.html" class="button"> More</a></button>
+			</div>
+			
+			<div id="saturn">
+				<center><img src="saturn.jpg" alt="saturn image"></center>
+				<h2>Rings of Saturn</h2>
+			<p>In our Solar System Rings of Saturn are the Most Extensive Ring system of any Planet. They consists of Countless Particles of different Size that Orbits around Saturn. These Ring Particles are made almost entirely of Water ice, with the Trace component Rock Materials. </p>
+			<button><a href="saturn.html" class="button"> More</a></button>
+			</div>
+		</div>
+		
 		</article>
 		<footer>
 			&copy; 2030 Tavishi Website &nbsp; &nbsp; <span class="separator">|</span> Design by Saloni 

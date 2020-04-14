@@ -18,19 +18,55 @@ body{
 .header{
 	padding: 45px 0 20px 40px;
 }
-.menu{
-	background: #3b7687;
-	padding: 6px 0 6px 40px;
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.menu a{
-	color: #c5d6db;
-	margin: 10px;
-	text-decoration: none;
-	font-size: 16px;
-	font-family: "Arial Narrow", "Myriad Pro";
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.menu a:hover{
-	color: #ecf2f3;
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
 }
 p{
 	text-align: justify;
@@ -64,7 +100,8 @@ h2{
 .main a:hover{
 	color: #444444;
 }
-.science{
+.blog{
+	margin-top: 10px;
 	padding: 30px;
 	box-shadow: 0 5px 5px 5px;
 	border-radius: 10px;
@@ -98,8 +135,29 @@ h2{
 	box-shadow: 0 3px 3px 3px;
 	border-radius: 5px;
 	padding: 8px;
+	margin-bottom: 30px;
 }
 #bermuda img{
+	width: 60%;
+	border-radius: 8px;
+}
+#moon{
+	box-shadow: 0 3px 3px 3px;
+	border-radius: 5px;
+	padding: 8px;
+	margin-bottom: 30px;
+}
+#moon img{
+	width: 60%;
+	border-radius: 8px;
+}
+#saturn{
+	box-shadow: 0 3px 3px 3px;
+	border-radius: 5px;
+	padding: 8px;
+	margin-bottom: 30px;
+}
+#saturn img{
 	width: 60%;
 	border-radius: 8px;
 }
@@ -139,7 +197,7 @@ footer{
 	width: 500px;
 	padding: 10px 10px 10px 10px;
 	margin: 0 auto;
-	box-shadow: 0 9px 13px 5px;
+	box-shadow: 0 2px 2px 2px;
 	border-radius: 5px;
 }
 #contact #page-heading{
@@ -149,12 +207,12 @@ footer{
 	width: 100%;
 	border-radius: 5px;
 	height: 20px;
-	background: #D6D6D6; 
+	background: #D6D6D6;
 }
 #contact #form #message{
 	width: 100%;
 	border-radius: 5px;
-	background: #D6D6D6; 	
+	background: #D6D6D6; 
 }
 #contact #form #submit{
 	height: 30px;
