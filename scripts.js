@@ -9,3 +9,10 @@ if (!e.target.matches('.dropbtn')) {
 		}
 }
 }
+
+
+function getcomment() {
+  text = comment.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("comment").value = "enter"
+}

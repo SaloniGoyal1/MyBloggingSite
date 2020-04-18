@@ -53,7 +53,7 @@
 			<br><br>
 			<div id="comment-form">
 				<h1><center>Comment</center></h1>
-				<form action="process.php">
+				<form>
 				<p>
 					<label for="name">Name: </label>
 					<input type="text" name="name" placeholder="Your Name">
@@ -67,9 +67,13 @@
 					<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 				</p>
 				<p>
-					<input type="submit" name="submit" value="Send Comment" id="submit">
+					<input type="button" onclick="getcomment()" value="Enter">
 				</p>
 				</form>
+			</div>
+			<div id="comment-box">
+				<h1>Comments</h1>
+				<p id="para"></p>
 			</div>
 		</article>
 		<footer>

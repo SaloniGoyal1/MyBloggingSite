@@ -245,3 +245,10 @@ footer{
 	height: 30px;
 	background: rgb(59, 118, 135); 	
 }
+#comment-box{
+	height: auto;
+	border-radius: 5px;
+	border: 2px solid grey;
+	margin: 30px;
+	padding: 10px;
+}
